@@ -22,9 +22,11 @@ void main() {
             backgroundColor:Colors.blueGrey[900],
 
       ),
-          body: Image(
-          image: NetworkImage('https://i.ibb.co/376vS1w/beautiful.webp'),
+          body: Center(
+            child: Image(
+            image: NetworkImage('https://i.ibb.co/376vS1w/beautiful.webp'),
       ),
+          ),
       ),
     ),
   );
